@@ -4,4 +4,4 @@
 
 |Build|Cppcheck|Codacy|
 |:--:|:--:|:--:|
-|[![Compile-Linux](https://github.com/Bharathgopal/Emb-C/actions/workflows/Compile.yml/badge.svg)](https://github.com/Bharathgopal/Emb-C/actions/workflows/Compile.yml)|[![Cppcheck](https://github.com/Bharathgopal/Emb-C/actions/workflows/CodeQulaity.yml/badge.svg)](https://github.com/Bharathgopal/Emb-C/actions/workflows/CodeQulaity.yml)|[![Codacy Badge](https://app.codacy.com/project/badge/Grade/643b7ca2b2dc4daba1e700c216bb87d9)](https://www.codacy.com/gh/Bharathgopal/Emb-C/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=Bharathgopal/Emb-C&amp;utm_campaign=Badge_Grade)|
+|[![Build CI-Linux](https://github.com/Suneesh-S/M2_Automatic-Exhaust-Fan/actions/workflows/Cbuild-linux.yml/badge.svg?branch=main)](https://github.com/Suneesh-S/M2_Automatic-Exhaust-Fan/actions/workflows/Cbuild-linux.yml)|[![CodeQuality-StaticCode-CppCheck](https://github.com/Suneesh-S/M2_Automatic-Exhaust-Fan/actions/workflows/CodeQuality.yml/badge.svg)](https://github.com/Suneesh-S/M2_Automatic-Exhaust-Fan/actions/workflows/CodeQuality.yml)|![Codacy Badge](https://api.codiga.io/project/32825/status/svg)|
