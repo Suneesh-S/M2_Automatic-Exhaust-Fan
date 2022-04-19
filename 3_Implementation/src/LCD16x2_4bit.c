@@ -21,7 +21,21 @@ void LCD_command(unsigned char cmnd)
 	_delay_ms(2);									/* WAIT FOR MAKE ENABLE WIDE */
 }
 
-
+void lcddata(unsigned char data)
+{
+	LCD_DPORT = (LCD_DPORT & 0x0f)|(data & 0xf0);		/* SEND DATA TO DATA PORT */
+	LCD_DPORT |= (1<<LCD_RS);						/* MAKE RS = 1 FOR DATA */
+	LCD_DPORT |= (1<<LCD_EN);						/* EN=0 FOR H TO L PULSE */
+	_delay_us(1);									/* WAIT FOR MAKE ENABLE WIDE */
+	LCD_DPORT &= ~(1<<LCD_EN);						/* EN = 0 FOR H TO L PULSE */
+	_delay_us(100);									/* WAIT FOR MAKE ENABLE WIDE */
+	
+	LCD_DPORT = (LCD_DPORT & 0x0f)|(data << 4);		/*  */
+	LCD_DPORT |= (1<<LCD_EN);						/* EN=0 FOR H TO L PULSE*/
+	_delay_us(1);									/* WAIT FOR MAKE ENABLE WIDE*/
+	LCD_DPORT &= ~(1<<LCD_EN);						/* EN = 0 FOR H TO L PULSE*/
+	_delay_ms(2);									/* WAIT FOR MAKE ENABLE WIDE*/
+}
 
 void LCD_init(void)
 {
