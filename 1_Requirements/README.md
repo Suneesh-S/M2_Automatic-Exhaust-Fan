@@ -13,25 +13,21 @@
 ![image](https://github.com/Suneesh-S/M1_Electrical_Calculator/blob/256f5675952ce21aabe37ecf476e453ace6db5f4/1_Requirements/led-series-table.jpg)
 
 ## Cost and Features
-* This project has various features, like it can provide electrical parameters like volatge,current resistor value,battery life etc.. 
-* In Resistor color code Calculator,it can give values of any band upto 6 bands.
-* In ohms law Calculator,user can enter any two parameters(V,I,R,P) and can get other two parameter values.
-* In LED series resistor Calculator,user can get resistor value to drive the LED by entering parameters.
-* In Batter life Calculator,user can get the battery life in hours by entering the parameter.
-#### above features are shown in the below screenshot. 
-![image](https://github.com/Suneesh-S/M1_Electrical_Calculator/blob/9f8aba398f1a0cc5bcde30190051daae5f0a3664/1_Requirements/index.png)
+* This project has various features, like it can provide air circulating system inside the Kitchen 
+* It can reduce the temperature of the kitchen with automatic approach
+* It can sense the high rise of temperature and alarm the family
+* The cost of the system is less compares to the Electric Chimney
 
 ## Defining Our System
-* System bacically takes input from the user and executes the particular function the user selected, and then print the values.
-* There are 4 types of functions in this Calculator
-  * Resistor Color Code Calculator
-  * Ohms law Calculator
-  * LED series Resistor Calculator
-  * Battery Life Calculator
-
+* System bacically takes temperature input from the environment and executes the particular function according to the Temperature and then Display the Temperature.
+* There are 3 types of functions in this Calculator
+  * Displays the Temperature of the Kitchen
+  * Controls the Exhaust Fan according to the Temperature
+  * Sounds the alarm during the sense of danger
+  
 
 ## SWOT ANALYSIS
-![image](https://github.com/Suneesh-S/M1_Electrical_Calculator/blob/ce31353fb25e1129f81ab9baa3c5cf5c7dae40e5/1_Requirements/SWOT%20analysis.png)
+![image](https://github.com/Suneesh-S/M2_Automatic-Exhaust-Fan/blob/038d15ecd7fb61d6a0f9cf42dbd3ece575f59a97/1_Requirements/SWOT%20analysis.png)
 
 # 4W&#39;s and 1&#39;H
 
