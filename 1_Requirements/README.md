@@ -4,9 +4,9 @@
  * Automatic Exhaust Fan can be used to reduce there work and also make their smaller kitchen even smarter.It detect the temperature of the kitchen room and turns on the exhaust fan when temperature exceeds certain limit. 
 
 ## Research
-### Electrical Calculator...
-* This is a simple project which simply provide required electrical parameters value to the user after taking input from the user. 
-* This calculator is using various formulas for different functions,research are done in the particular calculation and theres need to be perequites before entering to the program
+### Automatic Exhaust Fan...
+* To implement the project,the major component need is temperature sensing component 
+* From research,got two sensors-LM35 and Thermistor.Thermistor is used in project because the sensitivity of the sensor is better than LM35.It can sense the minor difference
 
 <img src="https://github.com/Suneesh-S/M2_Automatic-Exhaust-Fan/blob/3f50f48eee6bf801f1f051b151a9b0f9d8b52431/1_Requirements/lm35.jpg" width="360" height="240">
 <img src="https://github.com/Suneesh-S/M2_Automatic-Exhaust-Fan/blob/1fdc97c9173d17fd25f4d9e2b2ebff66e1105c0e/1_Requirements/thermistor.jpg" width="360" height="240">
