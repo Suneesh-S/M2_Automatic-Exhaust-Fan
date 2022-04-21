@@ -6,7 +6,8 @@ BUILD_DIR = Build
 SRC = project_main.c\
 src/ADCwrite.c\
 src/UART.c\
-src/LCD16x2_4bit.c
+src/LCD16x2_4bit.c\
+src/Motor.c
 
 # All header file paths
 INC = -I inc

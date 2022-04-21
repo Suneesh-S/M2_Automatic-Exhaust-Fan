@@ -7,18 +7,22 @@
 #include <stdio.h>
 #include <util/delay.h>
 #include <string.h>
-#include<LCD16x2_4bit.h>
-#include<UART.h>
-#include<ADCwrite.h>
+#include "LCD16x2_4bit.h"
+#include "UART.h"
+#include "ADCwrite.h"
+#include "Motor.h"
 #define  F_CPU 8000000UL
 
 unsigned char Data[100];
+
+
+
 
 int main(void)
 {	
     char Temperature[10];
 	float temp;
-    int flag0=0,flag1=0;
+    
 	
 	USART_init();
 	USARTWriteChar("UART communication initiated ");
@@ -32,7 +36,7 @@ int main(void)
 	while(1)
 	{   
 	    LCD_gotoxy(0,0);			/* enter column and row position */
-	    LCD_print("Kitchen Heat");
+	    LCD_print("Kitchen Temp");
 		temp = (ADC_Read(0)*4.88);
 		temp = (temp/10.00);
 		sprintf(Temperature,"%d%cC  ", (int)temp, degree);               /* convert integer value to ASCII string */
@@ -41,36 +45,8 @@ int main(void)
 		_delay_ms(1000);
 		memset(Temperature,0,10);
 		
-		if((int)temp>30 && (int)temp<70){
-		   
-		   PORTC = 0x02;
-		   PORTD &= ~(1<<PD2);
-		   if(flag0==0){
-		     USARTWriteChar("EXhaust Fan is On \n");
-			 flag0=1;
-			 flag1=0;
-		   }
-		   
-		}
-		else{
-		
-		if((int)temp>70){
-		  
-		  PORTD=(1<<PD2);
-		  PORTC = 0x00;
-		  USARTWriteChar("Alert!!!\n");
-		}
-		else{
-		  
-		  PORTD &= ~(1<<PD2);
-		  PORTC = 0x00;
-		  if(flag1==0){
-		     USARTWriteChar("EXhaust Fan is OFF \n");
-			 flag1=1;
-			 flag0=0;
-		   }
-		}
-		}
+		Motor_Control(temp);
+
 	}
 	return 0;
 	
