@@ -8,9 +8,8 @@
 * This is a simple project which simply provide required electrical parameters value to the user after taking input from the user. 
 * This calculator is using various formulas for different functions,research are done in the particular calculation and theres need to be perequites before entering to the program
 
-<img src="https://github.com/Suneesh-S/M2_Automatic-Exhaust-Fan/blob/3f50f48eee6bf801f1f051b151a9b0f9d8b52431/1_Requirements/lm35.jpg" width="480" height="360">
--------------------------------------------------------------------------------------------------
-<img src="https://github.com/Suneesh-S/M2_Automatic-Exhaust-Fan/blob/3f50f48eee6bf801f1f051b151a9b0f9d8b52431/1_Requirements/lm35.jpg" width="480" height="360">
+<img src="https://github.com/Suneesh-S/M2_Automatic-Exhaust-Fan/blob/3f50f48eee6bf801f1f051b151a9b0f9d8b52431/1_Requirements/lm35.jpg" width="360" height="240">
+<img src="https://github.com/Suneesh-S/M2_Automatic-Exhaust-Fan/blob/1fdc97c9173d17fd25f4d9e2b2ebff66e1105c0e/1_Requirements/thermistor.jpg" width="360" height="240">
 
 ## Cost and Features
 * This project has various features, like it can provide air circulating system inside the Kitchen 
