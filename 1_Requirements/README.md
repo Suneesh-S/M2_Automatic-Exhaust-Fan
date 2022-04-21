@@ -10,7 +10,7 @@
 
 ![image](https://github.com/Suneesh-S/M2_Automatic-Exhaust-Fan/blob/3f50f48eee6bf801f1f051b151a9b0f9d8b52431/1_Requirements/lm35.jpg)
 -------------------------------------------------------------------------------------------------
-![image](https://github.com/Suneesh-S/M1_Electrical_Calculator/blob/256f5675952ce21aabe37ecf476e453ace6db5f4/1_Requirements/led-series-table.jpg)
+![image](https://github.com/Suneesh-S/M2_Automatic-Exhaust-Fan/blob/6b32a93f0c81644096698147a8a4d20b56867113/1_Requirements/thermistor.jpg)
 
 ## Cost and Features
 * This project has various features, like it can provide air circulating system inside the Kitchen 
