@@ -4,17 +4,19 @@
 
 |Build|Cppcheck|Codacy|
 |:--:|:--:|:--:|
-|[![Build CI-Linux](https://github.com/Suneesh-S/M2_Automatic-Exhaust-Fan/actions/workflows/compile.yml/badge.svg)](https://github.com/Suneesh-S/M2_Automatic-Exhaust-Fan/actions/workflows/compile.yml)|[![Cppcheck](https://github.com/Suneesh-S/M2_Automatic-Exhaust-Fan/actions/workflows/cppcheck.yml/badge.svg)](https://github.com/Suneesh-S/M2_Automatic-Exhaust-Fan/actions/workflows/cppcheck.yml)|[![Codacy Badge](https://app.codacy.com/project/badge/Grade/c5b19591521c41fb98574997eeda1c5c)](https://www.codacy.com/gh/264046/SeatHeatingApp/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=264046/SeatHeatingApp&amp;utm_campaign=Badge_Grade)|
+|[![Build CI-Linux](https://github.com/Suneesh-S/M2_Automatic-Exhaust-Fan/actions/workflows/compile.yml/badge.svg)](https://github.com/Suneesh-S/M2_Automatic-Exhaust-Fan/actions/workflows/compile.yml)|[![Cppcheck](https://github.com/Suneesh-S/M2_Automatic-Exhaust-Fan/actions/workflows/cppcheck.yml/badge.svg)](https://github.com/Suneesh-S/M2_Automatic-Exhaust-Fan/actions/workflows/cppcheck.yml)|![Codacy Badge](https://api.codiga.io/project/32825/status/svg)|
 
 ----
 ## Folder Structure
 Folder             | Description
 -------------------| -----------------------------------------
-`0_Certificates`   | Documents detailing the certificates gained
+`0_Abstract`       | Documents shows the overall idea of the project
 `1_Requirements`   | Documents detailing requirements and research
 `2_Design`         | Documents specifying design details
 `3_Implementation` | All code and documentation
-`4_Test_plan`      | Documents with test plans and procedures
+`4_Test_Cases`     | Documents with test plans and procedures
+`5_Report`     | Overall report of project Implementation
+`6_Output`     | Documents with hex files,simulation file output results etc
 
 
 ## Challenges Faced and How Was It Overcome
