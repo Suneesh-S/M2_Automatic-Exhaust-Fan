@@ -14,14 +14,14 @@
 #define  F_CPU 8000000UL
 
 unsigned char Data[100];
-
+float temp;
 
 
 
 int main(void)
 {	
     char Temperature[10];
-	float temp;
+	
     
 	
 	USART_init();
