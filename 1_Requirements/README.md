@@ -8,7 +8,7 @@
 * This is a simple project which simply provide required electrical parameters value to the user after taking input from the user. 
 * This calculator is using various formulas for different functions,research are done in the particular calculation and theres need to be perequites before entering to the program
 
-![image](https://github.com/Suneesh-S/M1_Electrical_Calculator/blob/f2cda815554c041bf7139979462159bb732afc52/1_Requirements/resistor_code.gif)
+![image](https://github.com/Suneesh-S/M2_Automatic-Exhaust-Fan/blob/3f50f48eee6bf801f1f051b151a9b0f9d8b52431/1_Requirements/lm35.jpg)
 -------------------------------------------------------------------------------------------------
 ![image](https://github.com/Suneesh-S/M1_Electrical_Calculator/blob/256f5675952ce21aabe37ecf476e453ace6db5f4/1_Requirements/led-series-table.jpg)
 
