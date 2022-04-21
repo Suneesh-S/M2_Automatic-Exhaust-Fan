@@ -19,7 +19,7 @@
 * The cost of the system is less compares to the Electric Chimney
 
 ## Defining Our System
-* System bacically takes temperature input from the environment and executes the particular function according to the Temperature and then Display the Temperature.
+* System bacically takes temperature input from the environment and executes the particular function according to the Temperature and then Display the Temperature
 * There are 3 types of functions in this Calculator
   * Displays the Temperature of the Kitchen
   * Controls the Exhaust Fan according to the Temperature
