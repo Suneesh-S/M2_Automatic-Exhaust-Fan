@@ -17,7 +17,6 @@ unsigned char Data[100];
 float temp;
 
 
-
 int main(void)
 {	
     char Temperature[10];

@@ -8,8 +8,9 @@
 int flag0=0,flag1=0;
 
 void Motor_Control(float temp){
-			if((int)temp>30 && (int)temp<70){
-		   
+
+		if((int)temp>30 && (int)temp<70){
+	
 		   PORTC = 0x02;
 		   PORTD &= ~(1<<PD2);
 		   if(flag0==0){
@@ -17,7 +18,6 @@ void Motor_Control(float temp){
 			 flag0=1;
 			 flag1=0;
 		   }
-		   
 		}
 		else{
 		
