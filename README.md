@@ -2,7 +2,7 @@
 
 #### CI and Code Quality
 
-|Build|Cppcheck|Codacy|
+|Build|Cppcheck|Codiga|
 |:--:|:--:|:--:|
 |[![Build CI-Linux](https://github.com/Suneesh-S/M2_Automatic-Exhaust-Fan/actions/workflows/compile.yml/badge.svg)](https://github.com/Suneesh-S/M2_Automatic-Exhaust-Fan/actions/workflows/compile.yml)|[![Cppcheck](https://github.com/Suneesh-S/M2_Automatic-Exhaust-Fan/actions/workflows/cppcheck.yml/badge.svg)](https://github.com/Suneesh-S/M2_Automatic-Exhaust-Fan/actions/workflows/cppcheck.yml)|![Codacy Badge](https://api.codiga.io/project/32825/status/svg)|
 
