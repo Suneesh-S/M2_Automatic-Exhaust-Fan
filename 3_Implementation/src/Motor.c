@@ -5,9 +5,10 @@
 #include "Motor.h"
 #include "UART.h"
 
-int flag0=0,flag1=0;
+int flag0=0,flag1=0; /* flag variables */
 
 void Motor_Control(float temp){
+        /*Conditions to operate The system*/
 
 		if((int)temp>30 && (int)temp<70){
 	
