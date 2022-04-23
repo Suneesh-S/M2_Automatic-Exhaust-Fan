@@ -70,3 +70,12 @@
 |LLR-2| User shall be able to see the temperature of the room. |Implemented|
 |LLR-3| System shall able to sense the rise of temperature and sound alarm |Implemented|
 |LLR-4| Motor shall vary the speed depends on the temperature to reduce the electricity bill|Future|
+
+# Components Required
+* Atmega328p microcontroller
+* LCD Display
+* Thermistor
+* Speaker
+* Motor
+* L23 Driver
+* Relay
