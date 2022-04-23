@@ -1,12 +1,3 @@
-# Components Required
-* Atmega328p microcontroller
-* LCD Display
-* Thermistor
-* Speaker
-* Motor
-* L23 Driver
-* Relay
-
 
 # Schematic Diagram
 
