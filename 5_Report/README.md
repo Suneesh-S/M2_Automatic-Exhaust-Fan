@@ -74,6 +74,15 @@ In Normal Indian Kitchen,Exhaust fan is used to remove the heat present in the k
 |LLR-3| System shall able to sense the rise of temperature and sound alarm |Implemented|
 |LLR-4| Motor shall vary the speed depends on the temperature to reduce the electricity bill|Future|
 
+# Components Required
+* Atmega328p microcontroller
+* LCD Display
+* Thermistor
+* Speaker
+* Motor
+* L23 Driver
+* Relay
+
 # Schematic Diagram
 
 
