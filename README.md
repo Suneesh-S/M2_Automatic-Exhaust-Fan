@@ -21,14 +21,12 @@ Folder             | Description
 
 ## Challenges Faced and How Was It Overcome
 
-1. online resources helped a lot for learning simulide software. 
+1. online resources helped a lot for learning STM32Cuble software. 
 2. as most of the the functions required different types of functions, geeks for geeks websites helps a lot.
 3. while running the multiple files. Make file helped a lot to resolve this.
 4. Futureskills Materials also helps in understanding Embedded Systems.
-5. DgiKey website helps to design the overall Calculator project.
 
 ## Learning Resources and References
 1. [AVR freaks](https://www.avrfreaks.net/)
-2. [Electronics Hub](https://www.electronicshub.org/temperature-controlled-dc-fan-using-microcontroller/)
-3. [Electronicwings](https://www.electronicwings.com/)
-4. [Digikey](https://www.digikey.in/en/resources/online-conversion-calculators)
+2. [Future Skills](https://futureskillsnasscom.edcast.com/channel/stepin-fy22-23-emb-track)
+
