@@ -21,7 +21,7 @@ Folder             | Description
 
 ## Challenges Faced and How Was It Overcome
 
-1. online resources helped a lot for learning STM32Cuble software. 
+1. online resources helped a lot for learning simulide software. 
 2. as most of the the functions required different types of functions, geeks for geeks websites helps a lot.
 3. while running the multiple files. Make file helped a lot to resolve this.
 4. Futureskills Materials also helps in understanding Embedded Systems.
